@@ -11,4 +11,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    // add this:
+    server: {
+        hmr: {
+            host: 'gincaneiros.com',
+        },
+    }
 });
